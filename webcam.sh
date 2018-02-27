@@ -4,7 +4,7 @@
 #
 clear
 #
-# Get rid of old files ( mtime is in secs ) back
+# Get rid of old files ( -mmin time is in mins ) back
 #
 echo "********************"
 echo "* Cleanup files    *"
