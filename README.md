@@ -10,11 +10,11 @@ The program is called from crontab every 5 minutes
 The working directory is /home/pi/webcam
 The bash script does several tasks:-
 
-Delete old jpg captures /home/pi/webcam/
-Takes a photo /home/pi/webcam/
-Timestamps that photo /home/pi/webcam/
-Copies it to a time stamp jpg /home/pi/webcam/
-convert is then called to create a gif animated file /home/pi/webcam/ 
-ftp is then utilised to ftp the gif to a remote site /home/pi/webcam/webcam.gif
++ Delete old jpg captures /home/pi/webcam
++ Takes a photo /home/pi/webcam
++ Timestamps that photo /home/pi/webcam
++ Copies it to a time stamp jpg /home/pi/webcam
++ convert is then called to create a gif animated file /home/pi/webcam 
++ ftp is then utilised to ftp the gif to a remote site /home/pi/webcam/webcam.gif
 
 Andrew Rich VK4TEC 
